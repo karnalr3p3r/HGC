@@ -1,0 +1,9 @@
+.background-image {
+    background-image: url(../Images/backgrounds/bathroom-tile.jpg);
+    padding: 100px;
+    height: 500px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

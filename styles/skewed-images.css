@@ -1,0 +1,60 @@
+.skewed-header {
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+    background-color: black;
+}
+
+.skewed-header>.header-bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transform: skewY(-6deg);
+    transform-origin: top left;
+    filter: brightness(50%);
+}
+
+.skewed-header>.skewed-header-wrapper {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.skewed-header>.skewed-header-wrapper>.skewed-header-content {
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.skewed-header>.skewed-header-wrapper>.skewed-header-content>.links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.skewed-header>.skewed-header-wrapper>.skewed-header-content>.links-wrapper>.nav-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    transition: .5s;
+}
+
+.skewed-header>.skewed-header-wrapper>.skewed-header-content>.links-wrapper>.nav-link a {
+    color: #12cf05;
+}
+
+.skewed-header>.skewed-header-wrapper>.skewed-header-content>.links-wrapper>.nav-link:hover {
+    font-size: 1.25em;
+}

@@ -1,0 +1,25 @@
+/* Page Container Styles */
+
+.page-container {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.page-container>.content-wrapper {
+    width: 500px;
+}
+
+.page-container>.content-wrapper>#owner {
+    width: 350px;
+    margin: 23px 40px 20px 0px;
+    float: left;
+    border: 1px solid #cea135;
+    border-radius: 25px;
+}
+
+.page-container>.content-wrapper p {
+    letter-spacing: 1px;
+    line-height: 30px;
+    color: white;
+}

@@ -1,0 +1,11 @@
+/* common styles */
+
+body {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #12cf05;
+}

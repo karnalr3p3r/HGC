@@ -1,0 +1,41 @@
+/* Square Grid Style */
+
+.squares-wrapper {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.squares-wrapper>.squares {
+    width: 1000px;
+}
+
+.squares-wrapper>.squares>.square {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: -4px;
+}
+
+.square>.img-wrapper img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 25px;
+    border: 1px #cea135;
+}
+
+.square>.square-text-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.square-text-wrapper h1 {
+    color: #cea135;
+}
+
+.square-text-wrapper p {
+    color: #cea135;
+}
